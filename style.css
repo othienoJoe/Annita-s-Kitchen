@@ -1,5 +1,9 @@
-html {
+/*"Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif*/
+body {
 	background-color: #f15a29;
+}
+body {
+	background-color: whitesmoke;
 }
 nav {
 	background-image: url("./images/landing.jpg");
@@ -20,54 +24,98 @@ nav {
 #time {
 	display: flex;
 }
-#happy h1 {
+.hour {
 	background-color: white;
-	height: 80px;
-	width: 200px;
-	margin-left: 30px;
+	height: 100px;
+	width: 350px;
+	margin-bottom: 10px;
+	text-align: center;
 }
-#schedule h1 {
-	display: inline-flex;
-	text-align: start;
-	
+.party {
+	color: white;
+	background-color: #f15a29;
+	height: 155px;
+	text-align: center;
 }
-#schedule2 h1 {
+#schedule2 {
+	background-image: url("./images/breakfast.jpg");
 	color: white;
 	font-style: italic;
+	width: 450px;
+	height: 300px;
+	text-align: center;
 }
-#schedule3 h1 {
+#schedule3 {
+	background-image: url("./images/lunch.jpg");
         color: white;
 	font-style: italic;
+	width: 450px;
+	text-align: center;
 }
-#schedule4 h1 {
+#schedule4 {
+	background-image: url("./images/dinner.jpg");
 	color: white;
 	font-style: italic;
+	width: 450px;
+	text-align: center;
 }
-#menu {
-	display: inline-flex;
 
-}
 #head {
 	display: flex;
 	text-align: center;
 }
-#eateries {
+#offers {
 	display: flex;
 }
-#review {
+#image {
+	margin-left: 3px;
+	height: 10px;
+}
+#word {
+	margin-left: 40px;
+}
+#word a {
+	color: #f15a29;
+	border-style: ridge;
+	border-color: #f15a29;
+}
+#offers2 {
+        padding: 100px;
+}
+.image {
+        float: right;
+}
+.drinks a {
+        color: #f15a29;
+	border-color: #f15a29;
+	border-style: ridge;
+}
+#eateries {
+	background-image: url("./images/foodsBg.jpg");
 	display: flex;
-	text-align: center;
+	padding: 80px;
+}
+#food h5{
+	background-color: white;
+	height: 50px;
+	color: red;
+}
+#review {
+	margin-left: 150px;
+	text-align: left;
 }
 #order {
 	background-image: url("./images/subscribe.jpg");
-	color: white;
+	
 	text-align: center;
 }
 #order h3 {
 	margin-top: 2px;
+	color: white;
 }
 #take {
 	display: inline-flex;
+	color: white;
 }
 #take h4 {
 	background-color: rgb(110, 92, 92);
@@ -81,12 +129,10 @@ nav {
 	width: 100px;
 }
 #footer {
-	display: flex;
-	height: 70px;
-	
+        display: flex;
 }
 #footer h3 {
-	width: 45px;
+	width: 40px;
 }
 #footer img {
 	height: 55px;
