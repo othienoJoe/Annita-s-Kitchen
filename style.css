@@ -101,30 +101,57 @@ nav {
 }
 #menu {
 	background-image: url("./images/foodsBg.jpg");
-        
-}
-section {
-	padding: 50px;
+        width: 80%;
+	margin: 0 auto;
+	padding: 5em 7em;
 }
 #head {
-	display: flex;
-}
-#eateries {
+	text-align: center;
 	display: flex;
 	justify-content: space-between;
-	padding: 10px;
+	background-color: #999;
+}
+.fooder {
+	background-color: #fff;
+}
+.food {
+	background: #fff;
+	color: #f15a29;
+	font-weight: bold;
+	padding-right: 8em;
+	padding-top: 1em;
+	padding-left: 8em;
+}
+.food2 {
+	border-right: 15px solid#111;
+	padding-right: 8em;
+}
+
+#eateries {
+	text-align: center;
+	display: flex;
+	margin-top: 1m;
+	margin-left: 16em;
+	margin-right: 5em;
 }
 #food h5{
 	color: red;
 }
 #review {
 	display: flex;
+	text-align: center;
 }
 #customers {
-	margin-left: 150px;
+	margin-left: 20em;
+	border: 25em;
+	border-color: #999;
 }
 #members {
-	margin-right: 5px;
+	margin-left: 20em;
+	border: 25em;
+}
+#review h3 {
+	color: #f15a29;
 }
 #order {
 	background-image: url("./images/subscribe.jpg");
@@ -136,22 +163,29 @@ section {
 	color: white;
 }
 #take {
-	display: inline-flex;
+	display: flex;
 	color: white;
+	margin-left: 45em;
 }
-#take h4 {
+.email {
 	background-color: rgb(110, 92, 92);
-	height: 30px;
-	width: 300px;
+	height: 3em;
+	width: 17em;
+}
+.subscribe {
+	background-color: #f15a29;
+	width: 7em;
 }
 #order p {
 	display: inline-flex;
 	background-color: #f15a29;
-	height: 30px;
+	height: 30em;
 	width: 100px;
 }
 footer {
-        display: inline;
+        text-align: center;
+	background-color: #f15a29;
+	color: white;
 }
 #footer h3 {
 	width: 40px;
@@ -159,10 +193,14 @@ footer {
 #footer img {
 	height: 55px;
 	width: 42px;
+
 }
 #contacts img {
 	height: 40px;
 	width: 40px;
 	display: inline;
+	text-align: center;
+}
+#men {
 	text-align: center;
 }
