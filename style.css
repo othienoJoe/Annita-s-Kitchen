@@ -20,9 +20,11 @@ nav {
 #about {
 	margin-left: 40%;
 	color: white;
+	font-weight: 800;
 }
 #time {
 	display: flex;
+	margin: 0px;
 }
 .hour {
 	background-color: white;
@@ -66,43 +68,63 @@ nav {
 }
 #offers {
 	display: flex;
+	margin-left:400px;
 }
 #image {
-	margin-left: 3px;
-	height: 10px;
+	display: flex;
+	flex-direction: column;
 }
 #word {
-	margin-left: 40px;
+	margin-left: 10px;
 }
 #word a {
 	color: #f15a29;
-	border-style: ridge;
+	border-style: dashed;
 	border-color: #f15a29;
+        padding: 10px;
 }
 #offers2 {
-        padding: 100px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	padding-right: 100px;
 }
-.image {
-        float: right;
+.drinks {
+	text-align: left;
+	padding-right: 10px
 }
 .drinks a {
         color: #f15a29;
 	border-color: #f15a29;
-	border-style: ridge;
+	border-style: dashed;
+        padding: 10px;
+}
+#menu {
+	background-image: url("./images/foodsBg.jpg");
+        
+}
+section {
+	padding: 50px;
+}
+#head {
+	display: flex;
 }
 #eateries {
-	background-image: url("./images/foodsBg.jpg");
 	display: flex;
-	padding: 80px;
+	justify-content: space-between;
+	padding: 10px;
 }
 #food h5{
-	background-color: white;
-	height: 50px;
 	color: red;
 }
 #review {
+	display: flex;
+}
+#customers {
 	margin-left: 150px;
-	text-align: left;
+}
+#members {
+	margin-right: 5px;
 }
 #order {
 	background-image: url("./images/subscribe.jpg");
@@ -128,8 +150,8 @@ nav {
 	height: 30px;
 	width: 100px;
 }
-#footer {
-        display: flex;
+footer {
+        display: inline;
 }
 #footer h3 {
 	width: 40px;
@@ -137,8 +159,7 @@ nav {
 #footer img {
 	height: 55px;
 	width: 42px;
-	text-align: center;
-} 
+}
 #contacts img {
 	height: 40px;
 	width: 40px;
