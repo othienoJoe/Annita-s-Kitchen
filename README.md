@@ -15,5 +15,5 @@ By **{Nicodemus Othieno}**
 ## Support and contact details
 {For more info. and clarification you can reach me through;<br>nickodemus.otsieno@student.moringaschool.com}
 ### License
-*{MIT Licence.}
-**&copy#2021.Annita's Kitchen
+*{MIT Licence.}<br>
+**(c).2021.Annita's Kitchen**
