@@ -1,0 +1,113 @@
+/*"Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif*/
+html {
+	background-color: #f15a29;
+	min-height: 130vh;
+}
+nav {
+	background-image: url("./images/landing.jpg");
+}
+#nav p {
+	margin-left: 12px;
+	padding: 1px;
+	color: white;
+	height: 1px;
+}
+#logo {
+	margin-left: 40%;
+}
+#about {
+	margin-left: 40%;
+	color: white;
+}
+#time {
+	display: flex;
+}
+#happy h1 {
+	background-color: white;
+	height: 80px;
+	width: 200px;
+	margin-left: 30px;
+}
+#schedule h1 {
+	display: inline-flex;
+	text-align: start;
+	
+}
+#schedule2 h1 {
+	color: white;
+	font-style: italic;
+}
+#schedule3 h1 {
+        color: white;
+	font-style: italic;
+}
+#schedule4 h1 {
+	color: white;
+	font-style: italic;
+}
+#menu {
+	display: inline-flex;
+
+}
+#head {
+	display: flex;
+	text-align: center;
+}
+#image {
+	margin-left: auto;
+}
+#word {
+	display: flex;
+	margin-left: 40px;
+}
+#eateries {
+	background-image: url("./images/foodsBg.jpg");
+	display: inline-flex;
+	margin-left: 180px;
+}
+#food h5{
+	color: red;
+}
+#review {
+	margin-left: 45px;
+	text-align: center;
+}
+#order {
+	background-image: url("./images/subscribe.jpg");
+	color: white;
+	text-align: center;
+}
+#order h3 {
+	margin-top: 2px;
+}
+#take {
+	display: inline-flex;
+}
+#take h4 {
+	background-color: rgb(110, 92, 92);
+	height: 30px;
+	width: 300px;
+}
+#order p {
+	display: inline-flex;
+	background-color: #f15a29;
+	height: 30px;
+	width: 100px;
+}
+#footer {
+        display: flex;
+}
+#footer h3 {
+	width: 40px;
+}
+#footer img {
+	height: 55px;
+	width: 42px;
+	text-align: center;
+} 
+#contacts img {
+	height: 40px;
+	width: 40px;
+	display: inline;
+	text-align: center;
+}
