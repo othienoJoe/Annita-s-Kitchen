@@ -1,6 +1,4 @@
-# Annita-s-Kitchen
-Your satisfaction,our priority
-# {Annita's Kitchen}
+t init# {Annita's Kitchen}
 ### {Bringing you the best from a Four-Star hotel around}, {version. 2021-06-15}
 By **{Nicodemus Othieno}**
 ## Description
@@ -15,5 +13,5 @@ By **{Nicodemus Othieno}**
 ## Support and contact details
 {For more info. and clarification you can reach me through;<br>nickodemus.otsieno@student.moringaschool.com}
 ### License
-*{MIT Licence.}<br>
-**(c).2021.Annita's Kitchen**
+*{MIT Licence.}
+**&copy#2021.Annita's Kitchen
