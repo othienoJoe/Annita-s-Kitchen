@@ -1,12 +1,12 @@
 /*"Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif*/
-body {
+/* html {
 	background-color: #f15a29;
-}
-body {
-	background-color: whitesmoke;
-}
-nav {
+	min-height: 130vh;
+} */
+#nav {
 	background-image: url("./images/landing.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 #nav p {
 	margin-left: 12px;
@@ -15,192 +15,182 @@ nav {
 	height: 1px;
 }
 #logo {
-	margin-left: 40%;
+	width: fit-content;
+	margin: auto;
 }
 #about {
-	margin-left: 40%;
+	width: fit-content;
+	margin: auto;
 	color: white;
-	font-weight: 800;
+	text-align: center;
 }
+/*======================================================*/
+
 #time {
 	display: flex;
-	margin: 0px;
 }
-.hour {
-	background-color: white;
-	height: 100px;
-	width: 350px;
-	margin-bottom: 10px;
-	text-align: center;
+.hour{
+	background-color: aliceblue;
+	width: 30em;
+	height: 6em;
 }
-.party {
-	color: white;
-	background-color: #f15a29;
-	height: 155px;
-	text-align: center;
+.party{
+        background-color: #f15a29;
+	width: 30em;
+	height: 8.4em;
 }
-#schedule2 {
-	background-image: url("./images/breakfast.jpg");
+ #schedule2 {
+	 background-image: url("./images/breakfast.jpg");
 	color: white;
 	font-style: italic;
-	width: 450px;
-	height: 300px;
-	text-align: center;
+        width: 25em;
+	height: 17em;
 }
 #schedule3 {
 	background-image: url("./images/lunch.jpg");
         color: white;
 	font-style: italic;
-	width: 450px;
-	text-align: center;
+	width: 20em;
 }
 #schedule4 {
 	background-image: url("./images/dinner.jpg");
 	color: white;
 	font-style: italic;
-	width: 450px;
-	text-align: center;
+	width: 20em;
 }
-
-#head {
+#offers{
 	display: flex;
-	text-align: center;
+	width: fit-content;
+	margin-left: 20%;
+	margin-top: 40px;
 }
-#offers {
-	display: flex;
-	margin-left:400px;
-}
-#image {
+#word{
 	display: flex;
 	flex-direction: column;
+	margin-left: 20px;
+
+
 }
-#word {
-	margin-left: 10px;
+#image{
+	display: flex;
+	flex-direction: column;
+	border: 20px solid whitesmoke;
+	box-shadow: 2px 0px 9px grey;
 }
-#word a {
-	color: #f15a29;
-	border-style: dashed;
-	border-color: #f15a29;
-        padding: 10px;
-}
-#offers2 {
+#offers2{
 	display: flex;
 	flex-direction: row-reverse;
-	justify-content: center;
-	padding-right: 100px;
+	width: fit-content;
+	margin-left: 20%;
+	margin-top: 40px;
 }
-.drinks {
-	text-align: left;
-	padding-right: 10px
-}
-.drinks a {
-        color: #f15a29;
-	border-color: #f15a29;
-	border-style: dashed;
-        padding: 10px;
-}
-#menu {
-	background-image: url("./images/foodsBg.jpg");
-        width: 80%;
-	margin: 0 auto;
-	padding: 5em 7em;
-}
-#head {
-	text-align: center;
+#drinks{
 	display: flex;
-	justify-content: space-between;
-	background-color: #999;
+	flex-direction: column;
+	margin-right: 20px;
+
+
 }
-.fooder {
-	background-color: #fff;
-}
-.food {
-	background: #fff;
-	color: #f15a29;
-	font-weight: bold;
-	padding-right: 8em;
-	padding-top: 1em;
-	padding-left: 8em;
-}
-.food2 {
-	border-right: 15px solid#111;
-	padding-right: 8em;
+.image{
+	display: flex;
+	border: 20px solid whitesmoke;
+	box-shadow: 2px 0px 9px grey;
 }
 
-#eateries {
-	text-align: center;
+#menu {
 	display: flex;
-	margin-top: 1m;
-	margin-left: 16em;
-	margin-right: 5em;
+	flex-direction: column;
+	background-image: url("./images/foodsBg.jpg");
+	width: 100%;
+	height: 400px;
+
 }
-#food h5{
-	color: red;
-}
-#review {
-	display: flex;
+.fooder{
+	margin: auto;
 	text-align: center;
+	background-color: aliceblue;
+	width: 70%;
+	height: fit-content;
 }
-#customers {
-	margin-left: 20em;
-	border: 25em;
-	border-color: #999;
+
+#eateries{
+	display: flex;
+	background-color: white;
+	height: fit-content;
+	margin: auto;
+	width: fit-content;
 }
-#members {
-	margin-left: 20em;
-	border: 25em;
-}
-#review h3 {
+#eateries h5{
 	color: #f15a29;
 }
+
+#head {
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+	text-decoration: none;
+	background-color: antiquewhite;
+	height: 40px;
+}
+#image {
+	margin-left: auto;
+}
+#word {
+	display: flex;
+	margin-left: 40px;
+}
+/*====================================================== */
+#review {
+	display: flex;
+	margin-left: 45px;
+	text-align: center;
+	box-shadow: 0px 2px 9px grey;
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	justify-content: space-around;
+}
+/* ===================================================== */
 #order {
 	background-image: url("./images/subscribe.jpg");
-	
-	text-align: center;
-}
-#order h3 {
-	margin-top: 2px;
 	color: white;
+	text-align: center;
+	height: 300px;
+}
+#order h2 {
+	margin: 5em;
 }
 #take {
-	display: flex;
-	color: white;
-	margin-left: 45em;
+	display: inline-flex;
 }
 .email {
 	background-color: rgb(110, 92, 92);
-	height: 3em;
-	width: 17em;
+	height: 3.2em;
+	width: 18em;
 }
 .subscribe {
 	background-color: #f15a29;
-	width: 7em;
+	height: 3.5em;
+	width: 10em;
 }
-#order p {
-	display: inline-flex;
-	background-color: #f15a29;
-	height: 30em;
-	width: 100px;
-}
+/*=======================================================*/
 footer {
         text-align: center;
 	background-color: #f15a29;
 	color: white;
 }
-#footer h3 {
-	width: 40px;
+#footer {
+	display: inline-flex;
 }
 #footer img {
-	height: 55px;
+	height: 35px;
 	width: 42px;
-
-}
+	text-align: center;
+	margin-top: 1.3em;
+} 
 #contacts img {
 	height: 40px;
 	width: 40px;
 	display: inline;
-	text-align: center;
-}
-#men {
 	text-align: center;
 }
