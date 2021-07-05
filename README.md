@@ -12,6 +12,6 @@ By **{Nicodemus Othieno}**
 {The only Languages used are HTML and CSS.Hence term it simple to decipher}
 ## Support and contact details
 {For more info. and clarification you can reach me through;<br>nickodemus.otsieno@student.moringaschool.com}
-### License
+# License
 *{MIT Licence.}
 **&copy#2021.Annita's Kitchen
